@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.outer {
+	background: url(https://git.sebdoe.com/cdn/gradient.png);
+	height: 182px;
+	width: 1690px;
+	display: flex;
+	align-items: center;
+}
+
+.textOuter {
+	margin-left: 3rem;
+}
+
+span {
+	font-family: 'Inter', sans-serif;
+	color: #ffffff;
+	font-size: 3rem;
+}
+
+.notDate {
+	filter: opacity(0.4);
+}
