@@ -4,6 +4,8 @@ function getURLParameter(name) {
 
 const d = getURLParameter('d');
 
+console.log(d);
+
 if (d === '') window.location.href = '/create';
 
 const countdownDay = new Date(d);
